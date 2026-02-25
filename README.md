@@ -1,11 +1,11 @@
 # 💰 AI Personal Finance Analyzer
 
 <p align="center">
-  <b>Analyze spending. Track financial health. Make smarter money decisions.</b>
+  <b>Analyze spending. Track financial health. Make smarter financial decisions.</b>
 </p>
 
 <p align="center">
-  Built with ❤️ by <b>mkcamara</b><br>
+  Built by <b>mkcamara</b><br>
   Instagram: <a href="https://instagram.com/mkcamara_offical">@mkcamara_offical</a>
 </p>
 
@@ -13,64 +13,53 @@
 
 ## 🚀 Overview
 
-AI Personal Finance Analyzer is a lightweight financial intelligence API that:
+AI Personal Finance Analyzer is a lightweight financial intelligence API designed to help individuals understand their spending behavior and improve financial decision-making.
+
+The system:
 
 - Automatically categorizes transactions
 - Calculates income, expenses, and net balance
 - Generates financial insights
-- Provides actionable saving advice
-- Works fully offline (no heavy AI models)
+- Provides actionable saving recommendations
+- Runs fully offline (no heavy AI models)
 
-This project focuses on **real-world problem solving** — helping individuals understand and improve their financial behavior.
+This project focuses on solving a real-world problem: lack of financial awareness.
 
 ---
 
 ## 🎯 The Problem
 
-Most people:
-- Don’t know where their money goes
-- Overspend without realizing it
+Many people:
+
+- Do not track where their money goes
+- Overspend without clear visibility
 - Lack structured financial insights
 - Have no measurable financial health indicator
 
-This system solves that.
+This system provides clarity and structured analysis.
 
 ---
 
 ## ⚙️ Tech Stack
 
-- **FastAPI**
 - **Python**
+- **FastAPI**
 - **Pandas**
-- **Rule-based Intelligence Engine**
+- **Rule-Based Intelligence Engine**
 - **Uvicorn**
 
 Lightweight. Fast. Production-ready.
 
 ---
 
-## 🧠 Features
+## 🧠 Core Features
 
-✅ Transaction categorization  
-✅ Income vs expense breakdown  
-✅ Net balance calculation  
-✅ Spending insights  
-✅ Financial advice engine  
-✅ REST API (Swagger documentation included)  
-
----
-
-## 📸 Demo
-
-### API Running
-
-![API Demo](https://media.giphy.com/media/l0HlQ7LRalQqdWfao/giphy.gif)
-
-### Swagger Documentation
-
-![Swagger Demo](https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif)
-
-> Replace these GIFs later with your own screen recording for maximum professionalism.
+- Transaction categorization engine
+- Income vs expense breakdown
+- Net balance calculation
+- Category-level spending summary
+- Financial advice generation
+- REST API with Swagger documentation
 
 ---
 
@@ -96,35 +85,35 @@ ai-personal-finance-analyzer/
 
 ---
 
-## 🧪 How To Run Locally
+## 🧪 Running the Project Locally
 
-### 1️⃣ Clone the repository
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/your-username/ai-personal-finance-analyzer.git
 cd ai-personal-finance-analyzer
 ````
 
-### 2️⃣ Create virtual environment
+### 2. Create virtual environment
 
 ```bash
 python -m venv venv
 venv\Scripts\activate
 ```
 
-### 3️⃣ Install dependencies
+### 3. Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4️⃣ Start server
+### 4. Start the server
 
 ```bash
 uvicorn app.main:app --reload
 ```
 
-### 5️⃣ Open in browser
+### 5. Open in browser
 
 ```
 http://127.0.0.1:8000/docs
@@ -140,9 +129,12 @@ http://127.0.0.1:8000/docs
   "total_expense": -2422.51,
   "net_balance": 2377.49,
   "category_breakdown": {
+    "entertainment": -53.98,
+    "food": -94.10,
+    "other": -552.30,
+    "salary": 4000,
     "shopping": -821.88,
-    "transport": -100.25,
-    "food": -94.1
+    "transport": -100.25
   },
   "advice": [
     "Your spending is under control."
@@ -154,11 +146,11 @@ http://127.0.0.1:8000/docs
 
 ## 🔮 Future Improvements
 
-* Financial Health Score (0–100)
-* Monthly cashflow prediction
+* Financial health scoring system (0–100)
+* Monthly cash flow prediction
 * Spending visualization dashboard
-* AI-driven smart saving recommendations
-* Web dashboard interface
+* Smarter recommendation engine
+* Web-based user interface
 
 ---
 
@@ -176,5 +168,5 @@ Instagram: [https://instagram.com/mkcamara_offical](https://instagram.com/mkcama
 ---
 
 <p align="center">
-  <b>Building real-world AI systems that solve real problems.</b>
+  Building real-world systems that solve real financial problems.
 </p>
